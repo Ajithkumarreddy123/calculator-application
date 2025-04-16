@@ -48,14 +48,17 @@ The Power Calculator is designed as a beginner-friendly project that demonstrate
 
 4. **Run the Application:**
     - Use the AWS API Gateway URL to interact with the deployed Power Calculator via an HTTP request.
+-------
 
-### 📊 Example Inputs & Outputs
+## 📊 Example Inputs & Outputs
 
-Base	Exponent	Result
-2	3	8
-5	0	1
-2	-2	0.25
-9	0.5	3.0
+| Base | Exponent | Result |
+|------|----------|--------|
+| 2    | 3        | 8      |
+| 5    | 0        | 1      |
+| 2    | -2       | 0.25   |
+| 9    | 0.5      | 3.0    |
+
 ------
 ### 🌟 Features
 -Accepts both integers and floats
@@ -69,6 +72,8 @@ Base	Exponent	Result
 -Includes test cases for robustness
 
 -Serverless AWS deployment with Lambda and API Gateway
+
+------------
 
 ### 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo, make changes, and submit a pull request.
