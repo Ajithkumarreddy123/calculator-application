@@ -15,9 +15,7 @@ The Power Calculator is designed as a beginner-friendly project that demonstrate
 - **Python** – Core language for implementation  
 - **AWS Lambda** – For serverless compute tasks  
 - **AWS API Gateway** – For exposing the power calculator as a web service  
-- **AWS S3** – For storing input data or results (optional)  
-- **AWS CloudWatch** – For monitoring and logging  
-- **PyTest** – For unit testing the calculation logic  
+- **AWS S3** – For storing input data or results (optional)   
 
 ---
 
@@ -29,7 +27,7 @@ The Power Calculator is designed as a beginner-friendly project that demonstrate
 - Python 3.x installed on your local system
 - AWS CLI installed and configured with your credentials  
 - `pip` for installing packages (if needed)  
-- `pytest` for running tests locally
+
 
 ### 2. Deployment on AWS
 
@@ -42,12 +40,16 @@ The Power Calculator is designed as a beginner-friendly project that demonstrate
     - Create a new API in AWS API Gateway.
     - Configure an endpoint for invoking the Lambda function.
     - Enable CORS for web access if necessary.
-
-3. **CloudWatch Setup (Optional):**
-    - Enable CloudWatch logs for your Lambda function to monitor activity.
-
-4. **Run the Application:**
-    - Use the AWS API Gateway URL to interact with the deployed Power Calculator via an HTTP request.
+      
+3. **Static website Hosting:**
+    - Deploy the html file in s3 bucket
+    - Then go to the properties -> static website hosting-> enable it
+    - enter the html file name in that
+    - click save
+    - then click the website link
+4. **Testing**
+   - enter tha values of base and exponenets
+   - click on the result you can see the result
 -------
 
 ## 📊 Example Inputs & Outputs
